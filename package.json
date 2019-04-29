@@ -1,0 +1,16 @@
+{
+  "name": "tag-service",
+  "version": "0.0.1",
+  "description": "Microservice to CRUD tags in 8ogir open encyclopedia",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/folder/tag-service.git"
+  },
+  "author": "Mehran Naghizadeh",
+  "license": "not specified"
+}
