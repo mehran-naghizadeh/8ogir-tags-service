@@ -17,3 +17,9 @@
                     :as "books"))
   :resource-base (s-url "http://mu.semte.ch/services/github/madnificent/book-service/authors/")
   :on-path "authors")
+
+(define-resource tag ()
+  :class (s-prefix "schema:Tag")
+  :properties `((:title :string ,(s-prefix "schema:headLine")))
+  :resource-base (s-url "http://8og.ir/services/github/mehrannaghizadeh/8ogir-tags-service/tags/")
+  :on-path "tags")
