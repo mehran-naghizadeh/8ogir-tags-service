@@ -1,6 +1,6 @@
-FROM semtech/mu-javascript-template:1.3.5
-LABEL maintainer=tarhineh@hmail.com
+FROM semtech/mu-cl-resources:1.10.2
 
-ENV FILE_PATH '/data/files'
-#ENV FILE_GRAPH 'http://mu.semte.ch/graphs/public'
-RUN mkdir -p /data/files/
+COPY domain.lisp /config/domain.lisp
+COPY repository.lisp /config/repository.lisp
+
+LABEL maintainer=tarhineh@hmail.com
